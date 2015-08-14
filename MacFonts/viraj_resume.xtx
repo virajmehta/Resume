@@ -76,7 +76,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Viraj}{Mehta}{ \urlstyle{same}\href{http://virajrmehta.com}{virajrmehta.com(Under Construction)}\\
-\href{mailto:viraj@virajrmehta.com}{viraj@virajrmehta.com} | 512.963.1439 | \href{mailto:virajm@stanford.edu}{virajm@stanford.edu}
+\href{mailto:thebigmehtaphor@gmail.com}{thebigmehtaphor@gmail.com} | 512.963.1439 | \href{mailto:virajm@stanford.edu}{virajm@stanford.edu}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -190,7 +190,7 @@ Student Body President of WHS\\
 \item Worked on developing a platform-agnostic interface for the Remote Expert Management platform and service.
 \item Using Ember.JS, rebuilt the service in a manner that allowed it to be developed much more easily in the future.
 \end{tightemize}
-\sectionsep
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -206,7 +206,7 @@ Student Body President of WHS\\
 \item Trained the research team to manage the experiments as my career progressed to a design role.
 \item Managed the research team to make sure the plants and greenhouse was continuously producing specimens.
 \end{tightemize}
-\sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
@@ -219,10 +219,15 @@ Student Body President of WHS\\
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} C \textbullet{} C++ \textbullet{} \LaTeX \textbullet{} SQL
-\sectionsep
+\section{Programming Skills and Projects}
+\location{Java \textbullet{} UNIX \textbullet{} Python \textbullet{} C \textbullet{} C++ \textbullet{} \LaTeX \textbullet{} SQL}
+\runsubsection{Projects}
+\begin{tightemize}
+\item Blackjack Simulator: A monte-carlo style simulator using an algorithm similar to Q-learning to learn the correct strategy for Blackjack.(github)
+\item hasItDropped: A reddit trawler that searches for a link to Frank Ocean's upcoming album and texts an address book when it is found.(github)
+\item Heap Allocator: The classic CS107 Project, we achieved scores of 76\% utilization and 98\% throughput on a working heap allocator in C. (not allowed to put on github)
+\end{tightemize}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
