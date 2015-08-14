@@ -168,6 +168,7 @@ Student Body President of WHS\\
 \location{June 2015 - August 2015 | Foster City, CA}
 \sectionsep
 \begin{tightemize}
+\item Featured in the VISA Intern Showcase
 \item Worked on Agile team to test and develop code for VISA's real-time messaging platform.
 \item Wrote scripts to automate development process for RTM and ICE layers.
 \item Worked with Java codebase and SQL database to improve statement credit features.
@@ -178,8 +179,7 @@ Student Body President of WHS\\
 \location{March 2015 - Present | Stanford, CA}
 
 \begin{tightemize}
-\item Taught the SCPD course on Negotiation.
-\item Graded all assignements and final project.
+\item Taught the SCPD course on Negotiation, grading assignments and the final project.
 \end{tightemize}
 \sectionsep
 
@@ -235,7 +235,7 @@ Student Body President of WHS\\
 \section{Publications} 
 \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
 \nocite{stomata}
-\bibliographystyle{plain}
+\bibliographystyle{plain}\footnotesize
 \bibliography{publications}
 
 
