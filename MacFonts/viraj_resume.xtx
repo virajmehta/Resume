@@ -219,7 +219,7 @@ Student Body President of WHS\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Programming Skills and Projects}
-\location{Java \textbullet{} UNIX \textbullet{} Python \textbullet{} C \textbullet{} C++ \textbullet{} \LaTeX \textbullet{} SQL}
+\location{Java \textbullet{} UNIX \textbullet{} Python \textbullet{} C \textbullet{} C++ \textbullet{} \LaTeX \textbullet{} SQL \textbullet Julia}
 \runsubsection{Projects}
 \begin{tightemize}
 \item Blackjack Simulator: A monte-carlo style simulator using an algorithm similar to Q-learning to learn the correct strategy for Blackjack.(github)
