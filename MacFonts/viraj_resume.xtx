@@ -2,7 +2,7 @@
 % Viraj Mehta's Resume
 %
 % Adapted from the below template.
-% August 2015
+% August 2016
 %
 %
 %
@@ -74,7 +74,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Viraj}{Mehta}{ %\urlstyle{same}\href{http://virajrmehta.com}{virajrmehta.com(Under Construction)}\\
+\namesection{Viraj}{Mehta}{ \urlstyle{same}\href{http://virajrmehta.com}{virajrmehta.com}\\
 \href{mailto:thebigmehtaphor@gmail.com}{thebigmehtaphor@gmail.com} | 512.963.1439 | \href{mailto:virajm@stanford.edu}{virajm@stanford.edu}
 }
 
@@ -96,8 +96,8 @@
 \descript{Prospective B.S. in Mathematics}
 \location{June 2018 | Stanford, CA}
 School of Humanities and Sciences\\
-\location{ Cum. GPA: 3.94 \\
-Major GPA: 4.1}
+\location{ Cum. GPA: 3.9 }
+\location{ GRE: 340/340}
 \descript{Will be pursuing a coterminal M.S. in Computer Science}
 \sectionsep
 
@@ -119,32 +119,30 @@ LinkedIn://  \href{https://www.linkedin.com/in/virajrmehta}{\bf virajrmehta} \\
 %     COURSEWORK  -- deprecated to Leadership Experience
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Relevant Coursework}
+\section{Some Relevant Coursework}
 \subsection{Computer Science}
-Principles of Computer Systems\\
-Computer Organization and Systems \\
-Programming Abstractions \\
-Mathematical Foundations of Computing \\
-\sectionsep
+Machine Learning\\
+Operating Systems\\
+Computer Organization and Systems\\
 
 \subsection{Mathematics}
 Fundamental Concepts of Analysis \\
 Linear Dynamical Systems \\
-Ordinary Differential Equations \\
-Integral Calculus of Several Variables \\
-Linear Algebra and Differential Calculus of Several Variables \\
+Group and Ring Theory \\
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	  LEADERSHIP EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Leadership Experience}
+Resident Assistant of Mirlo at Stanford
 Stanford Alexander Hamilton Society | President\\
 Stanford ASSU Executive Cabinet\\
 Stanford Frosh Council\\
 Student Body President of WHS\\
-
-
+\section{Misc.}
+Will be representing Stanford at the 2017 Jeopardy College Championship!
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -162,20 +160,24 @@ Student Body President of WHS\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Google}
+\descript{| Software Engineering Intern}
+\location{June 2015 - September 2016 | Mountain View, CA}
+\sectionsep
+\begin{tightemize}
+\item Designed and built a system that performs distributed and scalable vector arithmetic systems for search ads selection.
+\item Reduced developer lines of code for complex transforming feature by 10x and improved performance by 20\% in complex cases.
+\item Code used during every Google search!
+\end{tightemize}
+
 \runsubsection{VISA}
 \descript{| Software Engineering Intern}
 \location{June 2015 - August 2015 | Foster City, CA}
 \sectionsep
-\begin{tightemize}
-\item Featured in the VISA Intern Showcase
-\item Worked on Agile team to test and develop code for VISA's real-time messaging platform.
-\item Wrote scripts to automate development process for RTM and ICE layers.
-\item Worked with Java codebase and SQL database to improve statement credit features.
-\end{tightemize}
 
 \runsubsection{Stanford Graduate School of Business and Center for Professional Development}
 \descript{| Course Assistant}
-\location{March 2015 - Present | Stanford, CA}
+\location{March 2015 - May 2016 | Stanford, CA}
 
 \begin{tightemize}
 \item Taught the SCPD course on Negotiation, grading assignments and the final project.
@@ -185,11 +187,6 @@ Student Body President of WHS\\
 \runsubsection{CISCO}
 \descript{| Intern }
 \location{June 2014 – Aug 2014 | Austin, TX}
-\begin{tightemize}
-\item Worked on developing a platform-agnostic interface for the Remote Expert Management platform and service.
-\item Using Ember.JS, rebuilt the service in a manner that allowed it to be developed much more easily in the future.
-\end{tightemize}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -207,6 +204,7 @@ Student Body President of WHS\\
 \end{tightemize}
 
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,14 +215,14 @@ Student Body President of WHS\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Programming Skills and Projects}
-\location{Java \textbullet{} UNIX \textbullet{} Python \textbullet{} C \textbullet{} C++ \textbullet{} \LaTeX \textbullet{} SQL \textbullet Julia}
+\location{C++\textbullet{} UNIX \textbullet{} Python \textbullet{} C \textbullet{} Java \textbullet{} \LaTeX \textbullet{} SQL \textbullet Julia}
 \runsubsection{Projects}
 \begin{tightemize}
+\item Operating System: A basic thread-scheduler, user process system, virtual memory system, and file system extending the Pintos kernel.
 \item Blackjack Simulator: A monte-carlo style simulator using an algorithm similar to Q-learning to learn the correct strategy for Blackjack.(github)
-\item hasItDropped: A reddit trawler that searches for a link to Frank Ocean's upcoming album and texts an address book when it is found.(github)
-\item Heap Allocator: The classic CS107 Project, we achieved scores of 76\% utilization and 98\% throughput on a working heap allocator in C. (not allowed to put on github)
+\item Finding your WAYS: A multiclass multilabel text classification system on Stanford courses into graduation requirements using a gated recurrent unit.
+\item Lending Club Loan Picker: Built a machine-learning model and API that used LDA over the Lending club dataset to achieve 0.8\% better returns on P2P loans. 
 \end{tightemize}
 
 
